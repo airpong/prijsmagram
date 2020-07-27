@@ -1,0 +1,27 @@
+{
+  "name": "prijsmagram",
+  "version": "1.0.0",
+  "description": "insta clone",
+  "repository": "https://github.com/airpong/prijsmagram.git",
+  "author": "Changun Ha <giponge@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "babel-core": "^7.0.0-bridge.0",
+    "dotenv": "^8.2.0",
+    "graphql-tools": "^6.0.15",
+    "graphql-yoga": "^1.18.3",
+    "merge-graphql-schemas": "^1.7.8",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js",
+    "deploy": "prisma deploy"
+  }
+}

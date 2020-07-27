@@ -1,0 +1,6 @@
+type Query {
+  sayGoodbye: String!
+}
+type Query {
+  
+}
